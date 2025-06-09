@@ -3,7 +3,7 @@ resource "aws_vpc" "main" {
 
 
     tags = {
-      name = ver.vpc_name
+      name = var.vpc_name
     }
   
 }

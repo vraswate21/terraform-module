@@ -7,5 +7,5 @@ variable "cidr_block" {
 variable "vpc_name" {
     type = string
     description = "name for the vpc"
-  
+ 
 }
